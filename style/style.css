@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  margin: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, .87);
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav a {
+  font: 13px/27px Roboto, Arial, sans-serif;
+  padding: 10px;
+}
+
+nav img {
+  width: 20px;
+  height: 20px;
+}
+
+.acceder {
+  background-color: #256ece;
+  color: #fff;
+  padding: 10px 23px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.letra_google {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 190px;
+}
+
+
+.buscador {
+  display: flex;
+  display: block;
+  padding: 30px;
+  text-align: center;
+}
+
+.barra_buscador {
+  margin: 0 auto;
+  border: 1px solid #dedcdc;
+  border-radius: 35px;
+  width: 582px;
+  height: 46px;
+}
+
+.barra_buscador img {
+  width: 15px;
+  height: 15px;
+  margin-bottom: 18px;
+  margin-right: 5px;
+}
+
+textarea {
+  font-family: arial, sans-serif;
+  background-color: transparent;
+  margin-top: 12px;
+  resize: none;
+  outline: none;
+  /*Quita el borde cuando esta seleccionado*/
+  font-size: 16px;
+  border: none;
+  width: 470px;
+  height: 36px;
+
+
+}
+
+.buscador a {
+  display: flex;
+  display: inline-block;
+  color: #424243;
+  background-color: #F8F9FA;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 30px 4px;
+  padding: 10px 16px;
+}
+
+
+.en_blanco {
+  margin-top: 285px;
+}
+
+.footer {
+  display: flex;
+  background-color: #F2F2F2;
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+  color: #70757a;
+  font-family: arial, sans-serif;
+}
+
+.footer a {
+  background-color: #F2F2F2;
+  padding: 0px 10px;
+  font-size: 15px;
+  color: #70757a;
+  font-family: arial, sans-serif;
+}
+
+.derecha {
+  
+margin-left: 56%;  
+margin-right: 0px;
+
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.acceder:hover{
+text-decoration: none;
+background: #1b66c9;
+box-shadow: 0 1px 3px 1px rgba(66,64,67,.15),0 1px 2px 0 rgba(60,64,67,.3);
+}
+}
